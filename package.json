@@ -1,0 +1,28 @@
+{
+  "name": "restapi",
+  "version": "0.0.1",
+  "description": "my RESTful api",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clurts/restapi.git"
+  },
+  "author": "Carsten Lund",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clurts/restapi/issues"
+  },
+  "homepage": "https://github.com/clurts/restapi#readme",
+  "dependencies": {
+    "morgan": "^1.8.2",
+    "mysql2": "^1.3.5",
+    "restify": "^4.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
