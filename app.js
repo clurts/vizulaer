@@ -3,6 +3,7 @@
 const restify = require('restify');
 const logger = require('morgan');
 const path = require('path');
+const passport = require('passport-restify');
 const port = process.env.PORT || 8080;
 const app = restify.createServer({
     name: 'RESTful API Demo',
